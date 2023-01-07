@@ -1,0 +1,11 @@
+version: '1'
+services:
+  dev:
+    build: .
+    stdin_open: true
+    tty: true
+    ports:
+      - 8080:8080
+    volumes:
+      - ./xgb_model:/opt/dev
+    command: mlserver start .

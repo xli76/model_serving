@@ -1,0 +1,8 @@
+{
+    "name": "xgboost",
+    "implementation": "mlserver_xgboost.XGBoostModel",
+    "parameters": {
+        "uri": "./xgb.json",
+        "version": "v0.1.0"
+    }
+}
